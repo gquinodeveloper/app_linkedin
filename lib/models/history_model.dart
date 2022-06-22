@@ -18,30 +18,30 @@ List<HistoryModel> histories = [
     id: 1,
     name: "Gustavo",
     profile: "FRONTEND DEVELOPER",
-    avatar: "",
+    avatar: "assets/images/arturo.jpg",
   ),
   HistoryModel(
     id: 2,
     name: "Omar",
     profile: "FLUTTER DEVELOPER",
-    avatar: "",
+    avatar: "assets/images/mao.jpg",
   ),
   HistoryModel(
     id: 3,
     name: "Anibal",
     profile: "FLUTTER DEVELOPER",
-    avatar: "",
+    avatar: "assets/images/gana.jpg",
   ),
   HistoryModel(
     id: 4,
-    name: "Diego",
+    name: "Beth",
     profile: "FLUTTER DEVELOPER UI/UX",
-    avatar: "",
+    avatar: "assets/images/mau.jpg",
   ),
-  HistoryModel(
+ /*  HistoryModel(
     id: 5,
     name: "Alonso",
     profile: "MARKETING UI/UX",
     avatar: "",
-  ),
+  ), */
 ];

@@ -1,4 +1,5 @@
 import 'package:app_linkedin/models/history_model.dart';
+import 'package:app_linkedin/ui/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class Histories extends StatelessWidget {
@@ -24,19 +25,21 @@ class Histories extends StatelessWidget {
                     height: 70.0,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20.0),
-                      border: Border.all(color: Colors.blue),
+                      border: Border.all(
+                        color: AppColors.kPrimary,
+                      ),
                     ),
-                    child: const Icon(
+                    child: Icon(
                       Icons.add,
                       size: 35.0,
-                      color: Colors.blue,
+                      color: AppColors.kPrimary,
                     ),
                   ),
                   const SizedBox(height: 10.0),
-                  const Text(
+                  Text(
                     "Historia ",
                     style: TextStyle(
-                      color: Colors.black54,
+                      color: AppColors.kSecondary,
                       fontSize: 14.0,
                     ),
                   ),
@@ -52,15 +55,18 @@ class Histories extends StatelessWidget {
                     width: 70.0,
                     height: 70.0,
                     decoration: BoxDecoration(
-                      color: Colors.black26,
                       borderRadius: BorderRadius.circular(20.0),
+                      image: DecorationImage(
+                        image: AssetImage(histories[index].avatar ?? ""),
+                        fit: BoxFit.cover,
+                      ),
                     ),
                   ),
                   const SizedBox(height: 10.0),
                   Text(
                     histories[index].name,
-                    style: const TextStyle(
-                      color: Colors.black54,
+                    style: TextStyle(
+                      color: AppColors.kSecondary,
                       fontSize: 14.0,
                     ),
                   ),

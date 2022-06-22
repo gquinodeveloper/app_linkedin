@@ -23,26 +23,29 @@ List<PostModel> posts = [
     id: 1,
     name: "Gustavo",
     profile: "FRONTEND DEVELOPER",
-    avatar: "",
+    avatar: "assets/images/geo.jpg",
     description: "Dribbble is the world’s leading community for creatives to share, grow, and get hired.",
-    time: "Hace 6 min"
+    time: "Hace 6 min",
+    photo: "assets/images/fernanda.jpg",
   ),
 
   PostModel(
     id: 2,
    name: "Omar",
     profile: "FLUTTER DEVELOPER",
-    avatar: "",
+    avatar: "assets/images/flutter.jpeg",
     description: "Dribbble is the world’s leading community for creatives to share, grow, and get hired.",
-    time: "Hace 6 min"
+    time: "Hace 6 min",
+    photo: "assets/images/flutter.jpeg",
   ),
 
   PostModel(
     id: 3,
-    name: "Diego",
+    name: "Mariana",
     profile: "FLUTTER DEVELOPER UI/UX",
-    avatar: "",
+    avatar: "assets/images/mariana.jpg",
     description: "Dribbble is the world’s leading community for creatives to share, grow, and get hired.",
-    time: "Hace 6 min"
+    time: "Hace 6 min",
+    photo: "assets/images/gana.jpg",
   ),
 ];

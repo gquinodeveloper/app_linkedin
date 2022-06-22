@@ -1,3 +1,4 @@
+import 'package:app_linkedin/ui/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class HeaderAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -11,23 +12,25 @@ class HeaderAppBar extends StatelessWidget implements PreferredSizeWidget {
       leadingWidth: 70.0,
       leading: Container(
         margin: const EdgeInsets.only(left: 15.0),
-        child: const CircleAvatar(),
+        child: const CircleAvatar(
+          backgroundImage: NetworkImage("https://i.pinimg.com/474x/72/8d/90/728d90e17375197ea81b9725b167aaa6.jpg"),
+        ),
       ),
       centerTitle: false,
       title: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
+        children:  [
           Text(
-            "Gustavo Quino",
+            "Veronica Garcia",
             style: TextStyle(
-              color: Colors.black,
+              color: AppColors.kSecondary,
               fontWeight: FontWeight.bold,
             ),
           ),
           Text(
             "FRONTEND DEVELOPER",
             style: TextStyle(
-              color: Colors.black54,
+              color: AppColors.kLetter,
               fontSize: 12.0,
             ),
           ),
