@@ -1,0 +1,50 @@
+ /* 
+
+ //onTap: controller.selectedTabIndex,
+                indicator: BoxDecoration(
+                  //color: AppColors.kPrimary,
+                  //borderRadius: BorderRadius.circular(AppValues.kRadiusLarge.r),
+                ),
+                labelColor: Colors.white,
+                //labelStyle: AppTextTheme(context).titleSmallNormal(),
+                //unselectedLabelColor: AppColors.kDisabled,
+                
+ /*  child: Text(
+                  "3 contactos en comun Hi Guys! I want to share Zensouk e-commerce App. Hope you like it Hi Guys! I want to share Zensouk e-commerce App. Hope you like it Hi Guys! I want to share Zensouk e-commerce App. Hope you like it Hi Guys! I want to share Zensouk e-commerce App. Hope you like it",
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                ), */
+
+ body: Stack(
+        children: [
+          Container(
+            key: const Key("1"),
+            color: AppColors.kDisabled,
+          ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Container(
+              height: 550.0,
+              key: const Key("2"),
+              decoration: const BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(20.0),
+                  topRight:  Radius.circular(20.0),
+
+                ),
+              ),
+            ),
+          ),
+          Positioned(
+            top: 145.0,
+            left: 150.0,
+            child: Container(
+                width: 100.0,
+                height: 100.0,
+                key: const Key("3"),
+                color: Colors.red,
+              ),
+          ),
+        ],
+      ), */
